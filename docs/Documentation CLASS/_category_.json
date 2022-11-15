@@ -1,0 +1,8 @@
+{
+  "label": "Documentation CLASS",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "documentation par rapport aux fonctions présentes dans chaque class"
+  }
+}
