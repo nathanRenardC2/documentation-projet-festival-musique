@@ -1,47 +1,21 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+L'objectif de ce (mini-)projet est de reprendre le code et les données fournies pour coder un site dynamique en PHP affichant la programmation du Vercors Musique Festival 2022 et permettant de laisse un message sur le livre d'or.
 
-## Getting Started
+Vous aurez besoin d'héberger vous-même une base, de préférence **PostgreSQL**, contenant les données fournies et je vous invite à le faire sur [AlwaysData.com](https://www.alwaysdata.com/fr/) *(Une BDD hébergée permet aux personnes d'un groupe de partager une même BDD)*.
 
-Get started by **creating a new site**.
+Le résultat attendu est visible à l'adresse : [Vercors Music Festival 2022 (Résultat Attendu)](https://carl-vincent.fr/LP-MI3-PHP/Festival-de-Musique-RESULTAT-ATTENDU/index.php)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Objectifs généraux :
+- Coder les différentes pages PHP pour qu'elles fonctionnent comme attendu :
+  - Page Accueil (`index.php`) qui contient le Livre d'or
+  - Script `ajout-message-livre-or.php` qui doit s'occuper d'enregistrer un nouveau message dans le Livre d'or et ensuite rediriger sur la page d'accueil
+  - Page Liste des artistes (`liste-artistes.php`)
+  - Page Programmation par jour (`prog-par-jour.php`)
+  - *Réservé aux LP-AW / BONUS pour les LP-SIGD : Page Fiche artiste (`fiche-artiste.php`) qui doit être accessible quand on clique sur un artiste de la page **Liste des artistes** ou **Programmation par jour**, et qui doit afficher les détails de l'artiste sélectionné (ou alors renvoyer sur la page `404.html` si jamais l'ID passé au script n'est pas correct)*
+- Produire du **code de qualité** en respectant les mêmes règles que le précédent projet
+- Protéger votre code de possibles **injections SQL** et **injections XSS**
