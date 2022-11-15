@@ -33,9 +33,6 @@ export default function Home() {
       title={`Projet festival de musique`}
       description="Toute la documentation du projet de festival de musique realisé par Nathan Renard et Julien Morelle">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
     </Layout>
   );
 }
