@@ -13,7 +13,31 @@ retourne une liste d'objects de type Concert
 
 ```php 
 
-    exemple d'un array 
+  0 => 
+    array (size=6)
+      'id_concert' => int 1
+      'id_artiste' => int 1
+      'id_scene' => int 1
+      'date_concert' => string '2022-07-01' (length=10)
+      'heure_debut_concert' => string '18:00:00' (length=8)
+      'entree_libre' => boolean false
+  1 => 
+    array (size=6)
+      'id_concert' => int 2
+      'id_artiste' => int 2
+      'id_scene' => int 2
+      'date_concert' => string '2022-07-01' (length=10)
+      'heure_debut_concert' => string '19:15:00' (length=8)
+      'entree_libre' => boolean false
+  2 => 
+    array (size=6)
+      'id_concert' => int 3
+      'id_artiste' => int 3
+      'id_scene' => int 1
+      'date_concert' => string '2022-07-01' (length=10)
+      'heure_debut_concert' => string '20:15:00' (length=8)
+      'entree_libre' => boolean false
+  ...
 
 ```
 
@@ -43,7 +67,7 @@ retourne le nombre de concert à une date donnée
 
 ```php 
 
-    exemple d'un array 
+    int 5
 
 ```
 
@@ -58,7 +82,7 @@ retourne l'heure du premier concert pour une date donnée
 
 ```php 
 
-    exemple d'un array 
+    string '18H00'
 
 ```
 
