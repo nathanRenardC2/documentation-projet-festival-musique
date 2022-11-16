@@ -13,7 +13,7 @@ récupère l'url de la page courante
 
 ```php 
 
-    exemple d'un array 
+    string 'http://localhost:8080/Controllers/fiche-artiste.ctrl.php?id=7'
 
 ```
 
@@ -28,6 +28,6 @@ Vérifie si la chaine de caractère $url est présent dans l'url
 
 ```php 
 
-    exemple d'un array 
+    boolean true
 
 ```
