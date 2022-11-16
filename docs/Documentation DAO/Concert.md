@@ -52,7 +52,7 @@ retourne le nombre de jours de concert
 
 ```php 
 
-    exemple d'un array 
+    int 3
 
 ```
 
