@@ -2,41 +2,50 @@
 sidebar_position: 1
 ---
 
-------------------------------------------
+---
+
 ## getIdArtiste()
-------------------------------------------
-récupère l'id d'un artiste
 
-**param(s) :** *void*
+---
 
-**return :** *int*
+Récupère l'id d'un artiste
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _int_
+
+---
+
 ## getNomArtiste()
-------------------------------------------
-récupère le nom d'un artiste
 
-**param(s) :** *void*
+---
 
-**return :** *String*
+Récupère le nom d'un artiste
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _String_
+
+---
+
 ## getLienPage()
-------------------------------------------
-récupère le lien de la page d'un artiste
 
-**param(s) :** *void*
+---
 
-**return :** *String*
+Récupère le lien de la page d'un artiste
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _String_
+
+---
+
 ## getLienIllustration()
-------------------------------------------
-récupère le lien de l'image d'illustration
 
-**param(s) :** *void*
+---
 
-**return :** *String*
+Récupère le lien de l'image d'illustration
 
+**param(s) :** _void_
 
-
+**return :** _String_

@@ -2,47 +2,62 @@
 sidebar_position: 4
 ---
 
-------------------------------------------
+---
+
 ## getId()
-------------------------------------------
-récupère l'id de la scène
 
-**param(s) :** *void*
+---
 
-**return :** *int*
+Récupère l'id de la scène
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _int_
+
+---
+
 ## getNomScene()
-------------------------------------------
-récupère le nom de la scène
 
-**param(s) :** *void*
+---
 
-**return :** *String*
+Récupère le nom de la scène
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _String_
+
+---
+
 ## getAdresse()
-------------------------------------------
-récupère l'adresse de la scene
 
-**param(s) :** *void*
+---
 
-**return :** *String*
+Récupère l'adresse de la scene
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _String_
+
+---
+
 ## getCodePostal()
-------------------------------------------
-récupère le code postal de la scène
 
-**param(s) :** *void*
+---
 
-**return :** *String*
+Récupère le code postal de la scène
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _String_
+
+---
+
 ## getVille()
-------------------------------------------
-récupère la ville de la scène
 
-**param(s) :** *void*
+---
 
-**return :** *String*
+Récupère la ville de la scène
+
+**param(s) :** _void_
+
+**return :** _String_

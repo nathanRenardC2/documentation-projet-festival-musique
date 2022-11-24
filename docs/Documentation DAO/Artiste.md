@@ -94,17 +94,13 @@ Groupe une liste d'artistes par date de concert
 
 **return :** _array_
 
-```php
-
-```
-
 ---
 
 ## getArtistesAvecConcert()
 
 ---
 
-retourne tous les artistes ayant un concert
+Retourne tous les artistes ayant un concert
 
 **param(s) :** _void_
 
@@ -135,7 +131,7 @@ retourne tous les artistes ayant un concert
 
 ---
 
-retourne la date du concert pour un artiste
+Retourne la date du concert pour un artiste
 
 **param(s) :** _int_ $id_artiste
 
@@ -153,7 +149,7 @@ retourne la date du concert pour un artiste
 
 ---
 
-retourne un artiste en fonction de son id
+Retourne un artiste en fonction de son id
 
 **param(s) :** _int_ $id_artiste
 

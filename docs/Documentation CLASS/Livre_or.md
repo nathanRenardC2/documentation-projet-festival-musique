@@ -2,47 +2,62 @@
 sidebar_position: 3
 ---
 
-------------------------------------------
+---
+
 ## getIdPost()
-------------------------------------------
-récupère l'id d'un post dans le livre d'or
 
-**param(s) :** *void*
+---
 
-**return :** *int*
+Récupère l'id d'un post dans le livre d'or
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _int_
+
+---
+
 ## getDatePost()
-------------------------------------------
-récupère la date d'un post
 
-**param(s) :** *void*
+---
 
-**return :** *String*
+Récupère la date d'un post
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _String_
+
+---
+
 ## getPseudoPost()
-------------------------------------------
-récupère le pseudo de la personne qui a écrit le post
 
-**param(s) :** *void*
+---
 
-**return :** *String*
+Récupère le pseudo de la personne qui a écrit le post
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _String_
+
+---
+
 ## getMessagePost()
-------------------------------------------
-récupère le message inscrit dans le post
 
-**param(s) :** *void*
+---
 
-**return :** *String*
+Récupère le message inscrit dans le post
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _String_
+
+---
+
 ## getIpPost()
-------------------------------------------
-récupère l'ip depuis lequel le post a été écrit
 
-**param(s) :** *void*
+---
 
-**return :** *String*
+Récupère l'ip depuis lequel le post a été écrit
+
+**param(s) :** _void_
+
+**return :** _String_

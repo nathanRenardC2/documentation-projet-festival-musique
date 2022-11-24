@@ -2,34 +2,37 @@
 sidebar_position: 4
 ---
 
-------------------------------------------
+---
+
 ## getAllScenes()
-------------------------------------------
-retourne une liste d'objects de type Scene
 
-**param(s) :** *void*
+---
 
-**return :** *array*
+Retourne une liste d'objects de type Scene
 
-exemple de retour : 
+**param(s) :** _void_
 
-```php 
+**return :** _array_
 
-    0 => 
+Exemple de retour :
+
+```php
+
+    0 =>
         object(Scene)[4]
             private int 'id' => int 1
             private string 'nom_scene' => string 'La Terrasse' (length=11)
             private string 'adresse' => string 'Maison des Sports, Route de la Foulée blanche' (length=46)
             private string 'code_postal' => string '38880' (length=5)
             private string 'ville' => string 'Autrans' (length=7)
-    1 => 
+    1 =>
         object(Scene)[5]
             private int 'id' => int 2
             private string 'nom_scene' => string 'Le Foyer' (length=8)
             private string 'adresse' => string 'Maison des Sports, Route de la Foulée blanche' (length=46)
             private string 'code_postal' => string '38880' (length=5)
             private string 'ville' => string 'Autrans' (length=7)
-    2 => 
+    2 =>
         object(Scene)[6]
             private int 'id' => int 3
             private string 'nom_scene' => string 'L'Avant Scène' (length=14)
@@ -40,18 +43,21 @@ exemple de retour :
 
 ```
 
-------------------------------------------
+---
+
 ## getNbScenes()
-------------------------------------------
-retourne le nombre de scènes
 
-**param(s) :** *void*
+---
 
-**return :** *int*
+Retourne le nombre de scènes
 
-exemple de retour :
+**param(s) :** _void_
 
-```php 
+**return :** _int_
+
+Exemple de retour :
+
+```php
 
     int 3
 

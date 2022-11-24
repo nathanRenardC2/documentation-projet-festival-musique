@@ -2,38 +2,50 @@
 sidebar_position: 5
 ---
 
-------------------------------------------
+---
+
 ## getIdVideo()
-------------------------------------------
-récupère l'id de la vidéo
 
-**param(s) :** *void*
+---
 
-**return :** *int*
+Récupère l'id de la vidéo
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _int_
+
+---
+
 ## getIdArtiste()
-------------------------------------------
-récupère l'id de l'artiste qui a réalisé la vidéo
 
-**param(s) :** *void*
+---
 
-**return :** *int*
+Récupère l'id de l'artiste qui a réalisé la vidéo
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _int_
+
+---
+
 ## getNomVideo()
-------------------------------------------
-récupère le nom de la vidéo
 
-**param(s) :** *void*
+---
 
-**return :** *String*
+Récupère le nom de la vidéo
 
-------------------------------------------
+**param(s) :** _void_
+
+**return :** _String_
+
+---
+
 ## getLienVideoYoutube()
-------------------------------------------
-récupère le lien de la vidéo youtube en bdd, puis la convertie pour qu'elle ait le bon format
 
-**param(s) :** *void*
+---
 
-**return :** *String*
+Récupère le lien de la vidéo youtube en bdd, puis la convertie pour qu'elle ait le bon format
+
+**param(s) :** _void_
+
+**return :** _String_
